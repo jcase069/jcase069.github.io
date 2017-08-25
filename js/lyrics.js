@@ -1,4 +1,4 @@
-module.exports = [
+var lyrics = [
   // ENDLESS FORMS MOST BEAUTIFUL
   // Shudder Before the Beautiful
   'The deepest solace lies in understanding. This ancient unseen stream, a shudder before the beautiful.',
@@ -23,7 +23,7 @@ module.exports = [
   `You live only for the days to come, shoveling trash of the upper caste.`,
   `Smiling mouth in a rotting head, sucking dry the teat of the scared.`,
   `A storytelling breed we are -- a starving crew with show-off toys.`,
-  `From words into war of the worlds, this one we forsake with scorn from lies the strength of our love: mother’s milk, laced with poison for this newborn.`,
+  `From words into war of the worlds, this one we forsake with scorn from lies the strength of our love: mother's milk, laced with poison for this newborn.`,
   `Wake up child, I have a story to tell: "Once upon a time..."`,
   // Élan
   `Leave the sleep and let the springtime talk in tongues from the time before man.`,
@@ -37,7 +37,7 @@ module.exports = [
   `Come, surf the clouds, race the dark -- it feeds from the runs undone.`,
   `Meet me where the cliff greets the sea.`,
   `The answer to the riddle before your eyes is in dead leaves and fleeting skies, returning swans and sedulous mice`,
-  `Writings on the gardens book, in the minute of a lover’s look.`,
+  `Writings on the gardens book, in the minute of a lover's look.`,
   `Building a sandcastle close to the shore -- a house of cards from a worn out deck.`,
   `A home from the fellowship, poise and calm.`,
   `Write a lyric for the song only you can understand.`,
@@ -48,10 +48,10 @@ module.exports = [
   // Yours Is an Empty Hope
   `Tear me to bits, enjoy the scene of screen name verbal vanity.`,
   `Churning the words imbued in filth, your tongue oily water under my bridge.`,
-  `You have the world, it’s all for you.`,
-  `I wish you’d find the lost in you -- grateful for the pain, it proves we’re alive.`,
+  `You have the world, it's all for you.`,
+  `I wish you'd find the lost in you -- grateful for the pain, it proves we're alive.`,
   `Can you feel it?`,
-  `I can’t make you want the truth -- it’s up to you.`,
+  `I can't make you want the truth -- it's up to you.`,
   `Yours is an empty hope.`,
   `Feed me to pigs in your fantasies.`,
   `Your sea roars bitter elegies, like Narcissus who bribes the pool.`,
@@ -61,9 +61,9 @@ module.exports = [
   `Turn from the hate; turn from the smoke.`,
   `I see the parchment of your soul, the notes, the song.`,
   `Join your voice!`,
-  `I can let you have the world; it’s all for you.`,
+  `I can let you have the world; it's all for you.`,
   // Our Decades in the Sun
-  `I climbed off your back not so long ago, to a blooming meadow to a path you’d made for the lightest feet.`,
+  `I climbed off your back not so long ago, to a blooming meadow to a path you'd made for the lightest feet.`,
   `Mother, I am always close to you.`,
   `I will be waving every time you leave.`,
   `Oh, I am you -- the care, the love, the memories.`,
@@ -74,14 +74,14 @@ module.exports = [
   `All this for you!`,
   `Our walk has been sublime -- a soaring ride and gentle lead.`,
   `You have the heart of a true friend.`,
-  `One day we’ll meet on that shore again.`,
+  `One day we'll meet on that shore again.`,
   // My Walden
   //`Sain y niwl,
   //`Gaunt y goydwig fwsog,
   //`Gwenithfaen, cen y coed, a'r lleuad,
   //`Un gway f'adenydd I dapestri bywyd
   `Light shines bright beyond all the cities of gold, on a road of birdsong and chocolate shops.`,
-  `Of buskers, jugglers, innkeeper’s welcoming call the sound of mist, smell of moss-grown woods.`,
+  `Of buskers, jugglers, innkeeper's welcoming call the sound of mist, smell of moss-grown woods.`,
   `Weaving my wings from many-colored yarns flying higher, higher, higher into the wild.`,
   `Weaving my world into tapestry of life, its fire golden in my Walden.`,
   `I will taste the manna in every tree, liquid honey and wine from the distant hills`,
@@ -89,7 +89,7 @@ module.exports = [
   `I do not wish to evade the world, yet I will forever build my own.`,
   `Forever, my home.`,
   // Endless Forms Most Beautiful
-  `Come on, hop on, let’s take a ride.`,
+  `Come on, hop on, let's take a ride.`,
   `Come and meet the travelers who came to town.`,
   `They have a tale from the past to tell from the great dark between the stars.`,
   `We are a special speck of dust -- a fleeting moment on an ark.`,
@@ -105,7 +105,7 @@ module.exports = [
   `Witness the birth of flight.`,
   `Deeper down in Panthalassa, a eukaryote finds her way.`,
   `We return to the very first one.`,
-  `Greet the one we’ll soon become.`,
+  `Greet the one we'll soon become.`,
   // Edema Ruh
   `One by one, we light the candles of this show.`,
   `One by one, enter the theatre of the primal birth.`,
@@ -115,8 +115,8 @@ module.exports = [
   `We know the songs the sirens sang.`,
   `See us dream every tale true.`,
   `The verse we leave with you will take you home.`,
-  `We’ll give you a key to open all of the gates.`,
-  `We’ll show you a sea of starlight to drown all your cares.`,
+  `We'll give you a key to open all of the gates.`,
+  `We'll show you a sea of starlight to drown all your cares.`,
   `Mirrorhouses, the sweetest kisses and wines, a Debussy dialogue between wind and the roaring sea.`,
   `Dance to the whistle, to the play, to the story, io infinite encores.`,
   `Laugh at the royalty with sad crowns and repeat the chorus once more`,
@@ -133,7 +133,7 @@ module.exports = [
   `Hand in hand, guiding me into light: you, the fairytale guise in blue and white.`,
   `You are my path, my home my star.`,
   `A beautiful tale within the tale, and when the dust needs to move on I will tuck us in on a bed of snow.`,
-  `Painting white, silencing the valley we built, together we’ll sleep, devoured by life`,
+  `Painting white, silencing the valley we built, together we'll sleep, devoured by life`,
   // The Greatest Show on Earth
   `Archaean horizon, the first sunrise on a pristine Gaea.`,
   `Opus perfectum somewhere there; us sleeping.`,
@@ -143,7 +143,7 @@ module.exports = [
   `From the stellar nursery into a carbon feast.`,
   `Enter LUCA!`,
   `The tapestry of chemistry!`,
-  `There’s a writing in the garden leading us to the Mother of all.`,
+  `There's a writing in the garden leading us to the Mother of all.`,
   `We are one!`,
   `We are a universe!`,
   `Forbears of what will be scions of the Devonian sea.`,
@@ -160,11 +160,11 @@ module.exports = [
   `Enter the god of gaps, deep within the past atavistic dread of the hunted.`,
   `Enter Ionia, the cradle of thought, the architecture of understanding.`,
   `The human lust to feel so exceptional to rule the Earth.`,
-  `Hunger for shiny rocks, for giant mushroom clouds, the will to do just as you’d be done by.`,
+  `Hunger for shiny rocks, for giant mushroom clouds, the will to do just as you'd be done by.`,
   `Enter history, the grand finale.`,
   `Enter Ratkind!`,
   `Man, he took his time in the sun, had a dream to understand a single grain of sand.`,
-  `He gave birth to poetry, but one day’ll cease to be.`,
+  `He gave birth to poetry, but one day'll cease to be.`,
   `Greet the last light of the library!`,
   `We were here!`,
 ];

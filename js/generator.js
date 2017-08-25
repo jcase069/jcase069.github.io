@@ -1,4 +1,4 @@
-const lyrics = require('./lyrics');
+// const lyrics = require('./lyrics');
 
 function randomParagraphSize(avgParagraphSize) {
   return Math.floor(Math.random() * (avgParagraphSize * 2 - 1)) + 1;
@@ -42,7 +42,7 @@ function generateText(paragraphs, avgParagraphSize, options) {
   return text;
 }
 
-exports.html = function(paragraphs, avgParagraphSize) {
+function generateHtml(paragraphs, avgParagraphSize) {
   const options = {
     paragraphPre: '<p>',
     paragraphPost: '</p>\n',
@@ -50,7 +50,7 @@ exports.html = function(paragraphs, avgParagraphSize) {
   return generateText(paragraphs, avgParagraphSize, options);
 }
 
-exports.text = function(paragraphs, avgParagraphSize) {
+function generatePreformatted(paragraphs, avgParagraphSize) {
   const options = {
     paragraphBetween: '\n\n',
     pre: '<pre>',
